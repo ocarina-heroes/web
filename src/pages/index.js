@@ -49,10 +49,6 @@ const Home = () => (
         Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
       </a>
     </footer>
-
-    <style jsx />
-
-    <style jsx global />
   </div>
 )
 
