@@ -11,7 +11,7 @@ export default function About() {
       <main>
         <h1 className="title">Welcome to Ocarina Heroes!</h1>
 
-        <p className="description">This is the about page</p>
+        <p className="description">This is the about page.</p>
       </main>
     </div>
   )
