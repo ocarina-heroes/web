@@ -15,6 +15,10 @@ const Home = () => (
       </p>
 
       <div className="grid">
+        <a href="https://hero-complex-97rw1xf7a.vercel.app/" className="card">
+          <h3>Allow myself to introduce myself</h3>
+          <p>Making sure the code editor works as expected</p>
+        </a>
         <a href="https://nextjs.org/docs" className="card">
           <h3>Documentation &rarr;</h3>
           <p>Find in-depth information about Next.js features and API.</p>
