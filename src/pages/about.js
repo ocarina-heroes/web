@@ -9,9 +9,9 @@ export default function About() {
       </Head>
 
       <main>
-        <h1 className="title">Welcome to Ocarina Heroes!</h1>
+        <h1 className="title">Welcome to the begining</h1>
 
-        <p className="description">This is the about page.</p>
+        <p className="description">It's...about...to go...Down!.</p>
       </main>
     </div>
   )
