@@ -1,0 +1,112 @@
+{
+  "type": "array",
+  "minItems": 2,
+  "maxItems": 10,
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "chance": "guid"
+      },
+      "name": {
+        "type": "string",
+        "chance": "name"
+      },
+      "dob": {
+        "type": "string",
+        "chance": {
+          "date": {
+            "string": true,
+            "american": true
+          }
+        }
+      },
+      "address": {
+        "type": "object",
+        "properties": {
+          "state": {
+            "type": "string",
+            "chance": {
+              "state": {
+                "full": true
+              }
+            }
+          },
+          "country": {
+            "type": "string",
+            "chance": {
+              "country": {
+                "full": true
+              }
+            }
+          }
+        },
+        "required": ["state", "country"]
+      },
+      "occupation": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "string",
+          "chance": "profession"
+        }
+      },
+      "facts": {
+        "type": "array",
+        "minItems": 3,
+        "maxItems": 6,
+        "items": {
+          "type": "object",
+          "properties": {
+            "fact": {
+              "type": "string",
+              "chance": "sentence"
+            },
+            "date": {
+              "type": "string",
+              "chance": {
+                "date": {
+                  "string": true,
+                  "american": true
+                }
+              }
+            },
+            "keywords": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "chance": "word"
+              }
+            }
+          },
+          "required": ["fact", "date", "keywords"]
+        }
+      },
+      "hedcut": {
+        "type": "string",
+        "chance": { "avatar": { "protocol": "https", "fileExtension": "jpg" } }
+      },
+      "tags": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 6,
+        "items": {
+          "type": "string",
+          "chance": "word"
+        }
+      },
+      "connections": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 4,
+        "items": {
+          "type": "string",
+          "chance": "guid"
+        }
+      }
+    },
+    "required": ["pid", "name", "dob", "address", "occupation", "facts", "hedcut", "tags", "connections"]
+  }
+}
