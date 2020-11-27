@@ -1,21 +1,21 @@
 import Head from 'next/head'
 import Card from '../components/Card'
+import Title from '../components/Title'
+import Grid from '../components/Grid'
+import Footer from '../components/Footer'
+import { Root, Main } from '../components/Containers'
 
 const Home = () => (
-  <div className="container">
+  <Root>
     <Head>
       <title>Ocarina Heroes</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <main>
-      <h1 className="title">Welcome to Ocarina Heroes!</h1>
+    <Main>
+      <Title />
 
-      <p className="description">
-        Get started by editing <code>pages/index.js</code>
-      </p>
-
-      <div className="grid">
+      <Grid>
         <Card
           href="https://hero-complex-97rw1xf7a.vercel.app/"
           header="Allow myself to introduce myself"
@@ -42,19 +42,11 @@ const Home = () => (
           header="Deploy &rarr;"
           body="Instantly deploy your Next.js site to a public URL with ZEIT Now."
         />
-      </div>
-    </main>
+      </Grid>
+    </Main>
 
-    <footer>
-      <a
-        href="https://zeit.co?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by <img src="/zeit.svg" alt="ZEIT Logo" />
-      </a>
-    </footer>
-  </div>
+    <Footer />
+  </Root>
 )
 
 export default Home

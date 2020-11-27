@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
+const Container = styled.a`
   margin: 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
@@ -32,11 +32,9 @@ const Container = styled.div`
 
 const Card = ({ href, header, body }) => {
   return (
-    <Container>
-      <a href={href}>
-        <h3>{header}</h3>
-        <p>{body}</p>
-      </a>
+    <Container href={href}>
+      <h3>{header}</h3>
+      <p>{body}</p>
     </Container>
   )
 }

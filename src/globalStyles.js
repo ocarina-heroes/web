@@ -26,13 +26,6 @@ code {
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
     monospace;
 }
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
 `
 
 const theme = {
