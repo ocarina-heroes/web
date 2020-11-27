@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it matches snapshot 1`] = `
+.c0 {
+  margin: 1rem;
+  -webkit-flex-basis: 45%;
+  -ms-flex-preferred-size: 45%;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  -webkit-transition: color 0.15s ease,border-color 0.15s ease;
+  transition: color 0.15s ease,border-color 0.15s ease;
+}
+
+.c0 a:hover,
+.c0 a:focus,
+.c0 a:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.c0 h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.c0 p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+<a
+  className="c0"
+>
+  <h3 />
+  <p />
+</a>
+`;
