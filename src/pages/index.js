@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Card from '../components/Card'
 
 const Home = () => (
   <div className="container">
@@ -15,32 +16,32 @@ const Home = () => (
       </p>
 
       <div className="grid">
-        <a href="https://hero-complex-97rw1xf7a.vercel.app/" className="card">
-          <h3>Allow myself to introduce myself</h3>
-          <p>Making sure the code editor works as expected</p>
-        </a>
-        <a href="https://nextjs.org/docs" className="card">
-          <h3>Documentation &rarr;</h3>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        <Card
+          href="https://hero-complex-97rw1xf7a.vercel.app/"
+          header="Allow myself to introduce myself"
+          body="Making sure the code editor works as expected"
+        />
+        <Card
+          href="https://nextjs.org/docs"
+          header="Documentation &rarr;"
+          body="Find in-depth information about Next.js features and API."
+        />
+        <Card
+          href="https://nextjs.org/learn"
+          header="Learn &rarr;"
+          body="Learn about Next.js in an interactive course with quizzes!"
+        />
+        <Card
+          href="https://github.com/zeit/next.js/tree/master/examples"
+          header="Examples &rarr;"
+          body="Discover and deploy boilerplate example Next.js projects."
+        />
 
-        <a href="https://nextjs.org/learn" className="card">
-          <h3>Learn &rarr;</h3>
-          <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
-
-        <a href="https://github.com/zeit/next.js/tree/master/examples" className="card">
-          <h3>Examples &rarr;</h3>
-          <p>Discover and deploy boilerplate example Next.js projects.</p>
-        </a>
-
-        <a
+        <Card
           href="https://zeit.co/new?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          className="card"
-        >
-          <h3>Deploy &rarr;</h3>
-          <p>Instantly deploy your Next.js site to a public URL with ZEIT Now.</p>
-        </a>
+          header="Deploy &rarr;"
+          body="Instantly deploy your Next.js site to a public URL with ZEIT Now."
+        />
       </div>
     </main>
 
