@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetches heroes 1`] = `
+Array [
+  Object {
+    "dateOfBirth": "1929-01-15T00:00:00Z",
+    "dateOfDeath": "1968-04-04T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Martin%20Luther%20King%2C%20Jr..jpg",
+    "item": Object {
+      "label": "Martin Luther King Jr.",
+      "value": "Q8027",
+    },
+    "occupation": "writer/pastor/preacher/civil rights advocate/theologian/minister/human rights activist/pacifist/peace activist/humanitarian",
+  },
+  Object {
+    "dateOfBirth": "1913-02-04T00:00:00Z",
+    "dateOfDeath": "2005-10-24T00:00:00Z",
+    "image": "http://commons.wikimedia.org/wiki/Special:FilePath/Rosaparks.jpg",
+    "item": Object {
+      "label": "Rosa Parks",
+      "value": "Q41921",
+    },
+    "occupation": "public figure/civil rights advocate/human rights activist/autobiographer",
+  },
+]
+`;

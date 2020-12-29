@@ -6355,6 +6355,11 @@ node-fetch@2.6.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
+node-fetch@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.1.tgz#045bd323631f76ed2e2b55573394416b639a0052"
+  integrity sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+
 node-int64@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/node-int64/-/node-int64-0.4.0.tgz#87a9065cdb355d3182d8f94ce11188b825c68a3b"
@@ -9336,6 +9341,11 @@ which@^2.0.1, which@^2.0.2:
   dependencies:
     isexe "^2.0.0"
 
+wikibase-sdk@^7.8.0:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/wikibase-sdk/-/wikibase-sdk-7.8.0.tgz#524b963cb7810bc265c0032ca5c167ef4970c19b"
+  integrity sha512-89IBMxaRIMxMpWRKp+Agtl5hUAuz4WSnMydd8YUg8JXdTXG/VGAPlL5+/CyP3Ei90sVmaDYhk5Wg5jDWsBcR9g==
+
 word-wrap@~1.2.3:
   version "1.2.3"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c"
@@ -9376,6 +9386,11 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+wretch@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/wretch/-/wretch-1.7.4.tgz#d71fc16ed01a8fd549df6cd06f205c6d13e2cf73"
+  integrity sha512-gBET7PgqgJ89GPBHujw0+arM/8YtWPqG6od8dRMTumvr3xvSlONpp2ANYqbpSL+cSoe6g97quZTgwM0jNn6riA==
 
 write-file-atomic@^3.0.0:
   version "3.0.3"
